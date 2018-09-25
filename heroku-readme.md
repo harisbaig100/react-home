@@ -1,3 +1,17 @@
+Create and Deploy a React App in Two Minutes
+You can get started building React apps for free on Heroku.
+
+npm install -g create-react-app
+create-react-app my-app
+cd my-app
+git init
+heroku create -b https://github.com/mars/create-react-app-buildpack.git
+git add .
+git commit -m "react-create-app on Heroku"
+git push heroku master
+heroku open
+Try it yourself using the buildpack docs.
+
 Deploying to Heroku
 
 $ heroku create YOUR-APP-NAME
