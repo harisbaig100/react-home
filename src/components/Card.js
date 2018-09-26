@@ -14,7 +14,7 @@ const styles = {
     maxWidth: 345,
   },
   media: {
-    height: 140,
+    height: 300,
   },
 };
 
@@ -25,17 +25,22 @@ function MediaCard(props) {
       <CardActionArea>
         <CardMedia
 					className={classes.media}
-					image="https://isorepublic.com/wp-content/uploads/2017/09/lizard-gecko-1062x708.jpg"
+					image="https://vignette.wikia.nocookie.net/monsterlegends/images/c/ce/Nemestrinus.jpg/revision/latest/scale-to-width-down/567?cb=20131224182055&path-prefix=es"
           // image="./src/assets/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          title="Druid"
         />
         <CardContent>
           <Typography gutterBottom variant="headline" component="h2">
-            Lizard
+            Druid
           </Typography>
           <Typography component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-            across all continents except Antarctica
+          Druids revere nature above all, gaining their spells and other 
+          magical powers either from the force of nature itself or from a 
+          nature deity. Many druids pursue a mystic spirituality of transcendent 
+          union with nature rather than devotion to a divine entity, while 
+          others serve gods of wild nature, animals, or elemental forces. 
+          The ancient druidic traditions are sometimes called the Old Faith, 
+          in contrast to the worship of gods in temples and shrines.
           </Typography>
         </CardContent>
       </CardActionArea>
