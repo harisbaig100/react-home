@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
+import Video from './components/Video';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
           <br />
           <Card></Card>
           <br />
+          <Video></Video>
         </div>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
