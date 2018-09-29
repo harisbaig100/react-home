@@ -28,3 +28,9 @@ git push origin YOUR_BRANCH_NAME
 git branch -D YOUR_BRANCH_NAME
 
 git pull
+
+-- clean branch and delete untracked stuff
+git clean -f -d
+
+-- fetch and prune
+git fetch --all --prune
