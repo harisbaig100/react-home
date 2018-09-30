@@ -1,3 +1,14 @@
+## Extra Notes (dump)
+https://mongoosejs.com/docs/connections.html
+https://stackoverflow.com/questions/13339695/nodejs-w-express-error-cannot-get
+https://stackoverflow.com/questions/39599063/check-if-mongodb-is-connected
+https://appdividend.com/2017/06/28/mern-stack-tutorial/
+https://docs.mongodb.com/manual/tutorial/manage-mongodb-processes/
+https://www.tutorialspoint.com/mongodb/mongodb_create_database.htm
+https://www.codementor.io/wapjude/creating-a-simple-rest-api-with-expressjs-in-5min-bbtmk51mq
+https://codeburst.io/hitchhikers-guide-to-back-end-development-with-examples-3f97c70e0073
+
+
 ## Server
 # Running the server
 # navigate to /server
