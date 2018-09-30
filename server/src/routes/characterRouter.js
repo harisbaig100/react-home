@@ -18,7 +18,7 @@ characterRouter.route('/').get(function (req, res) {
   });
 });
 
-characterRouter.route('/get/:id').get(function (req, res) {
+characterRouter.route('/:id').get(function (req, res) {
   var id = req.params.id;
   Character.findById(id, function (err, character){
       res.json(character);
