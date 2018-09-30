@@ -47,4 +47,6 @@ git reset --hard
 -- in this case HEAD~1, go back 1 commit --
 git reset --soft HEAD~1
 
-
+-- Merge all conflict: Accept all both --
+Open command palette: command + shift + p
+> Merge Conflict: Accept All Both
