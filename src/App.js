@@ -17,6 +17,7 @@ class App extends Component {
           <NavBar></NavBar>
           <br />
           <Card></Card>
+          <Card></Card>
           <br />
           <Video></Video>
         </div>
