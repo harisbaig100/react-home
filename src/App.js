@@ -4,6 +4,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Card from './components/Card';
 import Video from './components/Video';
+import Grid from './components/Grid';
 
 class App extends Component {
   render() {
@@ -16,7 +17,9 @@ class App extends Component {
         <div>
           <NavBar></NavBar>
           <br />
-          <Card></Card>
+          <Grid>
+          </Grid>
+          <br />
           <Card></Card>
           <br />
           <Video></Video>
