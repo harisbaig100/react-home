@@ -17,9 +17,15 @@ npm start
 # try calling localhost:4200/api/characters
 # try calling localhost:4200/api/characters/get/<supply_id>
 
+## Install Mongo DB
 
 
 ## Mongo DB
+Open the Terminal app and type `brew update`.
+After updating Homebrew `brew install mongodb`
+After downloading Mongo, create the “db” directory. This is where the Mongo data files will live. You can create the directory in the default location by running `mkdir -p /data/db`
+
+
 # Enable to fork mongo b conneciton
 mongod
 
@@ -35,3 +41,17 @@ db.createCollection("characters")
 # insert data into characters collection
 db.characters.insert({"name":"Squig Sleevily", "race":"half-elf", "class":"paladin"})
 db.characters.insert({"name":"Armor Two", "race":"human", "class":"forge cleric"})
+
+# install heroku
+brew install heroku/brew/heroku
+heroku create react-home
+git push heroku master
+
+# heroku workflow
+git push heroku master
+
+# check for heroku url
+heroku apps:info
+
+# current heroku url
+https://react-home.herokuapp.com/
