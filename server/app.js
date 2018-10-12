@@ -7,7 +7,7 @@ var cors = require('cors');
 
 // Mongoose connection with mongodb
 mongoose.Promise = require('bluebird');
-mongoose.connect('mongodb://localhost:27017/react-home', { useNewUrlParser: true })
+mongoose.connect('mongodb://heroku_cpjkgc0f:kpj2oal3rfn84kvh961uk05kj8@ds231133.mlab.com:31133/heroku_cpjkgc0f', { useNewUrlParser: true })
     .then(() => { // if all is ok we will be here
       console.log('Start');
     })
