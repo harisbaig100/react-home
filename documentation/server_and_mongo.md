@@ -55,3 +55,25 @@ heroku apps:info
 
 # current heroku url
 https://react-home.herokuapp.com/
+
+# mongo in heroku using mlab
+https://devcenter.heroku.com/articles/mongolab
+heroku addons:create mongolab:sandbox
+
+## Created mongolab-animate-76603
+
+# view app’s config variables
+heroku config:get MONGODB_URI
+
+# format of app config
+mongodb://dbuser:dbpass@host:port/dbname
+
+# mongo interactive shell
+~~~~
+% mongo ds012345.mlab.com:56789/dbname -u dbuser -p dbpassword
+MongoDB shell version: 3.4.7
+connecting to: ds012345.mlab.com:56789/dbname
+> 
+~~~~
+
+% mongo ds012345.mlab.com:56789/heroku_cpjkgc0f -u heroku_cpjkgc0f -p kpj2oal3rfn84kvh961uk05kj8
