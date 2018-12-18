@@ -12,8 +12,10 @@ function Login(props) {
             autoLoad={true}
             fields="name,email,picture"
             callback={responseFacebook}
-            cssClass="my-facebook-button-class"
-            icon="fa-facebook" 
+            cssClass="btnFacebook"
+            icon={<i className="fa fa-facebook" style={{marginLeft:'5px'}}>
+        </i>}
+        textButton = "&nbsp;&nbsp;Sign In with Facebook" 
         />
     );
 }

@@ -14,10 +14,15 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
+    "server-install": "npm install --prefix server",
+    "server": "npm start --prefix server",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "concurrently \"npm run server\" \"npm run start\"",
+    "heroku-postbuild":
+    "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "devDependencies": {}
 }
