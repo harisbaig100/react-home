@@ -13,7 +13,7 @@ function Login(props) {
             fields="name,email,picture"
             callback={responseFacebook}
             cssClass="btnFacebook"
-            icon={<i className="fa fa-facebook" style={{marginLeft:'5px'}}>
+            icon={<i className="fa fa-facebook" style={{marginLeft:'20px'}}>
         </i>}
         textButton = "&nbsp;&nbsp;Sign In with Facebook" 
         />

@@ -34,7 +34,7 @@ const styles = {
                         className="rounded-circle"
                         src={google}
                         alt={google}
-                        style={{ width: '120px', marginRight: '10px' }}
+                        style={{ width: '121px', marginRight: '10px' }}
                         title="logo"
                    />
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
